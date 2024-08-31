@@ -61,7 +61,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border; /* Se ha corregido 'border-border' a 'border' */
   }
   body {
     @apply bg-background text-foreground;
